@@ -1,0 +1,59 @@
+@media screen and (max-width: 1000px) {
+  h1 {
+    color: brown;
+  }
+  body {
+    background-color: aquamarine;
+  }
+}
+
+@media screen and (min-width:1200px) {
+    body{
+        background-color: yellow;
+    }
+    
+}
+
+.box{
+    width: 100vw;
+    height: 50vh;
+    background-color: blueviolet;
+
+}
+
+@media screen and (max-width:500px) {
+    .box{
+        display: none;
+    }
+    
+}
+
+
+/* Smaller Smartphones */
+@media screen and (max-width:480px) {
+    
+}
+
+/* Tablets */
+@media screen and (min-width:481px) and (max-width:768px) {
+    
+}
+
+/* Laptops*/
+@media screen and (min-width:769px) and (max-width:1279px) {
+    
+}
+
+
+/* Larger Screens */
+@media screen and (min-width:1280px) {
+    
+}
+
+/* For Print we can also style the Page accordingly */
+@media print {
+    body{
+        background-color: bisque;
+    }
+    
+}
